@@ -1,0 +1,81 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+h1{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;  
+}
+
+header, body, section,aside,footer,hgroup{
+
+    display: block;
+    border: 1px solid black;
+    display:block;    
+}
+
+body{
+    text-align: center;
+
+}
+
+.agrupar{
+    width: 960px;
+    border:1px solid black;
+    margin: 15px auto;
+
+}
+
+header{
+    background: #FFFBB9
+}
+
+.menu{
+    background: #ccc;
+    padding: 5px 15px;
+    text-align: left;
+
+}
+
+.menu li{
+    list-style: none;
+    /*border: 1px solid black;*/
+    display:inline-block;
+    padding: 5px;
+    font: bold 14px verdana;
+}
+
+.cabecera h1{
+    text-align: left
+}
+
+.seccion{
+    margin: 20px;
+    width: 600px;
+    
+}
+
+p > span{
+    color:blue;
+}
+
+/*h1+h2{
+    color:magenta;
+}*/
+
+p+p{
+    color:peru;
+}
+
+/*h1[class]{
+    color:greenyellow;
+}*/
+
+h1[class="titulo2"]{
+   color: cornflowerblue; 
+}
+
+h1[class~="descrip"] { color: rgb(255, 0, 55); }
