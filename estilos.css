@@ -78,4 +78,4 @@ h1[class="titulo2"]{
    color: cornflowerblue; 
 }
 
-h1[class~="descrip"] { color: blue; }
+h1[class~="descrip"] { color: rgb(255, 0, 55); }
