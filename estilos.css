@@ -73,3 +73,7 @@ p+p{
 h1[class]{
     color:greenyellow;
 }
+
+h1[class="titulo2"]{
+   color: cornflowerblue; 
+}
